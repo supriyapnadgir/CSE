@@ -3,7 +3,6 @@
 #include<Wire.h>
 #include<string.h>
 
-
 LiquidCrystal_I2C lcd(0X27,20,4);
 int count=0;
 char input[12];
